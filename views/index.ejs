@@ -12,7 +12,7 @@
 
     <ul>
       <% messages.forEach(function(message) { %>
-         <li> Name:<%= message.user %> </br> Message:<%= message.text %></li>
+         <li> Name: <%= message.username %> </br> Message:<%= message.text %></li>
         <small><%=message.added%></small> </br></br>
       <% }); %> 
      </ul>
